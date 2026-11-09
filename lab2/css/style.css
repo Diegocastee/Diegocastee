@@ -1,0 +1,81 @@
+/* Configures the header titles h1 */
+h1 {
+    font-family: "Rum Raisin", sans-serif;
+    font-size: 9rem;
+    background-image: linear-gradient(45deg, #990000, #f9fd03, #006bf7, #1eff00);
+    color: transparent;
+    background-clip: text;
+    display:inline-block;
+    -webkit-text-stroke: 2px #000000
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(253, 255, 128);
+}
+
+h3 {
+    font-family: "Tiny5 Duo", sans-serif;
+    color: rgb(253, 255, 128);
+}
+
+/* Configures the website's body, such as background images, body text design, font size, drop shadows, etc */
+body {
+  background-image: url("../img/glitter.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  color: #FFFFFF; /* Set text color to white for contrast */
+  font-family: Calibri, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;  /* Set line height for better readability */
+}
+
+/* Configures the break horizontal line, for decoration */
+hr {
+  border: none;                                                  /* 1. Reset default browser styles */
+  height: 8px;                                                   /* 2. Set the thickness */
+  background:linear-gradient(to bottom, #ffffff, #424242);   /* 3. Set the color */
+  margin: 1px;                                                   /* 4. Set the spacing */
+}
+
+/* Configures the footer's content */
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    color:rgb(203, 206, 0);
+    text-shadow: 4px 4px 4px #ffbb00dc;
+}
+
+header, footer {
+    text-align: center;
+}
+
+#main {
+    font-family: "Oswald";
+    color:#000000;
+    text-align: center;
+    font-size: 2.5rem;
+    background: rgba(255, 255, 255, 0.897);
+    border-radius: 12px;
+}
+
+#playerGuess {
+    width: 5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+}
+
+#wins {
+    color:#1eff00;
+}
+
+#losses {
+    color:red
+}
