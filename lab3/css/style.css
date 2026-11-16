@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 30px 15px;
+    background: linear-gradient(90deg, #fffae3, #ffffff);
+    color: #243447;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    color: #aa1717;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #aa1717;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #999;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+select {
+    width: 98%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: white;
+}
+
+input:focus {
+    border: 2px solid #006bcf;
+    outline: none;
+}
+
+select:focus {
+    border: 2px solid #006bcf;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #aa1717;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7d1010;
+}
+
+/* Configures the footer's content */
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #aa1717;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 25px;
+}
