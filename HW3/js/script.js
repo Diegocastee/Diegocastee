@@ -108,7 +108,7 @@ function showResult(nameData) {
   
   document.querySelector('#resultName').textContent = name;
   document.querySelector('#resultGender').textContent = 'Gender: ' + gender;
-  document.querySelector('#resultUsage').textContent = 'Usage: ' + getUsageText(usage);
+  document.querySelector('#resultUsage').textContent = 'Origin: ' + getUsageText(usage);
   
   let genderBadge = document.querySelector('#genderBadge');
   genderBadge.className = 'gender-badge';
