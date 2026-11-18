@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #171521;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Page heading */
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header a {
+    color: #d3bcff;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+    font-size: 48px;
+}
+
+.intro {
+    color: #d0cadb;
+    font-size: 18px;
+}
+
+/* Name search area */
+.search-panel {
+    padding: 25px;
+    background-color: #292536;
+    border: 1px solid #514a61;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.search-row {
+    display: flex;
+    gap: 10px;
+}
+
+#nameInput {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #777086;
+    border-radius: 6px;
+    background-color: #171521;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #c3a9f7;
+    color: #211833;
+}
+
+.secondary {
+    border: 1px solid #777086;
+    background-color: #393347;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Message and name information */
+.status {
+    min-height: 24px;
+    margin: 24px 0 14px;
+    color: #d0cadb;
+    text-align: center;
+}
+
+.status.error {
+    color: #ffaaa8;
+}
+
+.result-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+    border: 1px solid #514a61;
+    border-radius: 12px;
+    background-color: #292536;
+}
+
+.gender-badge {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #514a61;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.gender-badge.feminine {
+    background-color: #a24f83;
+}
+
+.gender-badge.masculine {
+    background-color: #4776a8;
+}
+
+.gender-badge.unisex {
+    background-color: #728347;
+}
+
+h2 {
+    margin: 0 0 8px;
+    font-family: Georgia, serif;
+}
+
+.result-detail {
+    margin: 5px 0;
+    color: #d0cadb;
+}
+
+/* Page footer */
+footer {
+    margin-top: 30px;
+    color: #aaa3b8;
+    text-align: center;
+    font-size: 14px;
+}

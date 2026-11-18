@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title> Name Insights </title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="page">
+    <header>
+      <a href="https://www.behindthename.com/"> API FOR BEHIND THE NAME</a>
+      <h1>Name Insights</h1>
+      <p class="intro">Look up a name to discover information about it. Great for ideas.</p>
+    </header>
+
+    <section class="search-panel">
+      <form id="searchForm">
+        <label for="nameInput">Enter a name:</label>
+        <div class="search-row">
+          <input id="nameInput" name="name" type="search" placeholder="For example, Maya" required autocomplete="off">
+          <button class="button primary" type="submit">Search</button>
+          <button class="button secondary" id="randomButton" type="button">Random</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- JavaScript puts messages and API results in these elements. -->
+    <p id="status" class="status" role="status" aria-live="polite">Enter a name or choose Random to get started.</p>
+    <section id="result" class="result-card" aria-live="polite" hidden>
+      <div id="genderBadge" class="gender-badge" aria-hidden="true">?</div>
+      <div>
+        <h2 id="resultName"></h2>
+        <p id="resultGender" class="result-detail"></p>
+        <p id="resultUsage" class="result-detail"></p>
+        <p id="resultRelated" class="result-detail"></p>
+      </div>
+    </section>
+
+  </main>
+
+<script src="js/script.js"></script>
+
+<footer>
+  <p>&copy; 2026 Diego Borjas. All rights reserved.</p>
+  <p>This site is for academic purposes only.</p>
+  <p>CST 336 Internet Programming.</p>
+  <img src="img/csumb-logo.jpg" alt="CSUMB logo" width="300">
+</footer>
+
+</body>
+</html>
